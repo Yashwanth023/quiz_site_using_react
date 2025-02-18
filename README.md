@@ -1,69 +1,126 @@
-# Welcome to your Lovable project
 
-## Project info
+# QuizWhirl - Interactive Knowledge Testing Platform
 
-**URL**: https://lovable.dev/projects/1a84ac3f-a996-4460-a912-48feb2b48516
+## Overview
+QuizWhirl is an engaging quiz application designed to test and enhance your knowledge through interactive questions. With a beautiful user interface and smooth user experience, QuizWhirl makes learning fun and engaging.
 
-## How can I edit this code?
+## Features
 
-There are several ways of editing your application.
+### User Authentication
+- Simple email and password registration
+- Secure login system
+- Persistent user sessions
+- Easy logout functionality
 
-**Use Lovable**
+### Quiz Experience
+- Dynamic question rendering
+- Multiple-choice questions with instant feedback
+- Timer for each question (30 seconds)
+- Visual feedback for correct and incorrect answers
+- Progress tracking during quiz
+- Beautiful UI with gradient backgrounds
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/1a84ac3f-a996-4460-a912-48feb2b48516) and start prompting.
+### Performance Tracking
+- Real-time score calculation
+- Detailed performance metrics
+  - Questions answered correctly
+  - Average time per question
+  - Overall quiz completion percentage
+- Historical attempt tracking
+- Performance statistics visualization
 
-Changes made via Lovable will be committed automatically to this repo.
+### User Interface
+- Responsive design for all devices
+- Beautiful gradient backgrounds
+- Intuitive navigation
+- Clean and modern UI components
+- Toast notifications for user feedback
+- Loading states and animations
 
-**Use your preferred IDE**
+### Technical Features
+- Built with modern React and TypeScript
+- Local storage for user data persistence
+- Client-side routing
+- IndexedDB for storing quiz attempts
+- Real-time progress tracking
+- Modular component architecture
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+## Technology Stack
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+### Frontend
+- React 18
+- TypeScript
+- Tailwind CSS for styling
+- shadcn/ui for UI components
+- React Router for navigation
+- Tanstack Query for data management
 
-Follow these steps:
+### State Management
+- React Context for global state
+- Local Storage for persistence
+- IndexedDB for attempt history
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+### UI/UX
+- Lucide React for icons
+- Toast notifications
+- Progress indicators
+- Responsive layouts
+- Interactive animations
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+## Performance Features
+- Optimized rendering
+- Efficient state updates
+- Smooth transitions
+- Instant feedback system
+- Responsive design principles
 
-# Step 3: Install the necessary dependencies.
-npm i
+## Security Features
+- Protected routes
+- Session management
+- Secure user authentication
+- Data persistence
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
+## Getting Started
+
+1. Clone the repository
+2. Install dependencies with `npm install`
+3. Start the development server with `npm run dev`
+4. Open `http://localhost:5173` in your browser
+
+## Usage
+
+1. Create an account or login
+2. Start the quiz
+3. Answer questions within the time limit
+4. Get instant feedback on your answers
+5. View your final score and statistics
+6. Track your progress over time
+
+## Project Structure
+
+```
+src/
+  ├── components/      # Reusable UI components
+  ├── contexts/        # React contexts
+  ├── data/           # Quiz questions and static data
+  ├── hooks/          # Custom React hooks
+  ├── pages/          # Main application pages
+  ├── services/       # Service layers
+  └── utils/          # Utility functions
 ```
 
-**Edit a file directly in GitHub**
+## Future Enhancements
+- Multiple quiz categories
+- Difficulty levels
+- Social sharing features
+- Leaderboards
+- Achievement system
+- Custom quiz creation
+- Mobile app version
+- Real-time multiplayer mode
+- Advanced analytics dashboard
+- PDF export of results
+- Integration with learning platforms
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
-
-**Use GitHub Codespaces**
-
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
-
-## What technologies are used for this project?
-
-This project is built with .
-
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/1a84ac3f-a996-4460-a912-48feb2b48516) and click on Share -> Publish.
-
-## I want to use a custom domain - is that possible?
-
-We don't support custom domains (yet). If you want to deploy your project under your own domain then we recommend using Netlify. Visit our docs for more details: [Custom domains](https://docs.lovable.dev/tips-tricks/custom-domain/)
+## Contributing
+We welcome contributions! Feel free to submit pull requests or create issues for any bugs or feature requests.
