@@ -25,6 +25,12 @@ export const QuizCard = ({
   const [hasAnswered, setHasAnswered] = useState(false);
   const timePerQuestion = 30;
 
+  // Reset state when question changes
+  useEffect(() => {
+    setSelectedAnswer(null);
+    setHasAnswered(false);
+  }, [question.id]); // Reset when question ID changes
+
   const { timeLeft, stopTimer } = useQuizTimer(timePerQuestion, () => {
     if (!hasAnswered) {
       handleAnswer(-1);
