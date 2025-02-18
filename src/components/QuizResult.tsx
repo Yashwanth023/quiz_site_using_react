@@ -4,6 +4,7 @@ import { Card } from '@/components/ui/card';
 import { Button } from '@/components/ui/button';
 import { Progress } from '@/components/ui/progress';
 import { Award, Clock, RotateCcw } from 'lucide-react';
+import { quizDB } from '@/services/db';
 
 interface QuizResultProps {
   score: number;
